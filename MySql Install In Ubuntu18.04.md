@@ -62,5 +62,5 @@ mysql>FLUSH PRIVILEGES;
 
 ### STEP-08: Bydefault you can't access the root user so you need to create new database user using below command
 `create a user on you root user`
-<pre> mysq> create user "somrat"@"%"identified by "Md109193@!Somrat"</pre>
+<pre> mysq> create user "username"@"%"identified by "password"</pre>
 
