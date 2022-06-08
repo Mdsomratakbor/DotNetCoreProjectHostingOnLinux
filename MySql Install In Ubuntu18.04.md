@@ -45,3 +45,7 @@
 <pre>mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'very_strong_password';
 mysql>FLUSH PRIVILEGES;
 </pre>
+
+### STEP-06: For Remote connection
+`Edit the mysql configuration file`
+<pre></pre>
