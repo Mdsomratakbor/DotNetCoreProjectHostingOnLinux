@@ -55,3 +55,8 @@ mysql>FLUSH PRIVILEGES;
 
 `If you don't have the default blind adress then execute the below image command`
 ![image](https://user-images.githubusercontent.com/53125546/172554227-e650ff57-27e5-49c8-be58-fdf8068690f2.png)
+
+### STEP-07: Restart the mysql service
+
+<pre>$ sudo systemctl restart mysql</pre>
+
