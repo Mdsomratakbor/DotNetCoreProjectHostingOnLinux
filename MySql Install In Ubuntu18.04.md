@@ -48,4 +48,8 @@ mysql>FLUSH PRIVILEGES;
 
 ### STEP-06: For Remote connection
 `Edit the mysql configuration file`
-<pre></pre>
+<pre>sudu nano /etc/mysql/mysql.conf.d/mysqld.cnf</pre>
+
+`after execute the command comment the default blind adress ipaddress`
+![image](https://user-images.githubusercontent.com/53125546/172553949-ea7f13d3-b32c-4862-a1e3-4b5933fb1040.png)
+
