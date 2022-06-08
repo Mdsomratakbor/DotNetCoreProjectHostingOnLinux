@@ -25,3 +25,10 @@
 
 `On the next prompt, you will be asked to set a password for the MySQL root user. Once you do that the script will also ask you to remove the anonymous user, restrict root user access to the local machine and remove the test database. You should answer “Y” (yes) to all questions.`
 
+### STEP-05: Login as root
+`To interact with the MySQL server from the command line you can use the MySQL client utility which is installed as a dependency of the MySQL server package.`
+
+`In Ubuntu 18.04 systems running MySQL 5.7 (and later), the root user is authenticated by the auth_socket plugin by default.`
+
+`The auth_socket plugin authenticates users that connect from the localhost through the Unix socket file. This means that you can’t authenticate as root by providing a password.`
+
