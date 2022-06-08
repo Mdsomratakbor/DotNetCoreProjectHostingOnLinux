@@ -14,3 +14,5 @@
 <pre>$ sudo systemctl status mysql</pre>
 
 `Once the installation is completed, the MySQL service will start automatically. To check whether the MySQL server is running, type:`
+![image](https://user-images.githubusercontent.com/53125546/172546499-fd2607af-f2f6-4888-9e0c-6ff3563f901f.png)
+
