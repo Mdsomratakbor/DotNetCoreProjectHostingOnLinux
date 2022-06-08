@@ -53,3 +53,5 @@ mysql>FLUSH PRIVILEGES;
 `after execute the command comment the default blind adress ipaddress`
 ![image](https://user-images.githubusercontent.com/53125546/172553949-ea7f13d3-b32c-4862-a1e3-4b5933fb1040.png)
 
+`If you don't have the default blind adress then execute the below image command`
+![image](https://user-images.githubusercontent.com/53125546/172554227-e650ff57-27e5-49c8-be58-fdf8068690f2.png)
