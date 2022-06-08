@@ -32,3 +32,16 @@
 
 `The auth_socket plugin authenticates users that connect from the localhost through the Unix socket file. This means that you can’t authenticate as root by providing a password.`
 
+`To log in to the MySQL server as the root user type:`
+
+<pre>sudo mysql</pre>
+
+![image](https://user-images.githubusercontent.com/53125546/172548326-04707a52-7c5d-4cd8-a9be-f5eb0f1662e9.png)
+
+`If you want to login to your MySQL server as root from an external program such as phpMyAdmin you have two options.`
+
+`The first one is to change the authentication method from auth_socket to mysql_native_password. You can do that by running the following command:`
+
+<pre>mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'very_strong_password';
+mysql>FLUSH PRIVILEGES;
+</pre>
